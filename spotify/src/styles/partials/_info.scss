@@ -1,0 +1,45 @@
+.info {
+
+    &__body {
+        background: rgb(255, 174, 0);
+    }
+
+    &__box {
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    &__cell {
+        background: rgb(255, 248, 240);
+        width: 25vw;
+        height: 25vw;
+        margin: 2.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__track {
+        padding-top: 40%;
+    }
+
+    &__track {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 4rem;
+
+    }
+
+    &__artist {
+        font-weight: 400;
+        font-size: 3rem;
+
+    }
+
+    &__attn {
+        margin-bottom: 5px;
+        margin-top: auto;
+    }
+}
