@@ -14,7 +14,7 @@ export default class Body extends Component {
 
 	componentDidMount() {
 		axios.defaults.headers.common['Authorization'] =
-			'Bearer BQBWnAT0PK3Qi1t3VhdXJYclBeRS4Jjcg9vtPWuYvcaN-vLBsyMYCWXqRTxdkof6To_qmDZDugCg8vWrBON1XYg-jw2TKtwAETlBJwNmP4YwtC9emm_bJ4mtPTfocIcgtLFTTuk6AiHFDjS6hlQFPMxIyWu8luA';
+			'Bearer BQBE7D9SdXMnyiPwIKEslGn_rFP1v8997hji4NJ0NIPGLOWG7k59aP0w5nkthIIUF5C1278AQGnbUsNzWC8q9opNgL6wr5mcq-giQxkKc1bxi5GpZnIMfUT362tfGlxJ9PAbO6Zrz49_';
 		axios.get(`https://api.spotify.com/v1/playlists/${this.state.id}/tracks`).then((res) => {
 			console.log(res.data.items);
 			this.setState({
