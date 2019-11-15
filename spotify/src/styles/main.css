@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+.info__body {
+  background: #ffae00;
+}
+
+.info__box {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.info__cell {
+  background: #fff8f0;
+  width: 25vw;
+  height: 25vw;
+  margin: 2.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__track {
+  padding-top: 40%;
+}
+
+.info__track {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.info__artist {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.info__attn {
+  margin-bottom: 5px;
+  margin-top: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: Raleway;
+}
+/*# sourceMappingURL=main.css.map */
